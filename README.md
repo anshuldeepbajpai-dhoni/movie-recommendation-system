@@ -1,6 +1,6 @@
 # 🎬 Movie Recommendation System
 
-A content-based Movie Recommendation System built using Python, Flask, and Scikit-learn that recommends similar movies based on genres, cast, keywords, directors, and movie overviews. The application uses the TMDB 5000 Movies Dataset and is deployed on Render for public access.
+A content-based Movie Recommendation System built using Python, Flask, and Scikit-learn that recommends similar movies based on genres, cast, keywords, directors, and movie overviews. The application uses the TMDB 5000 Movies Dataset and is deployed on Railway for public access.
 
 ---
 
@@ -11,7 +11,7 @@ A content-based Movie Recommendation System built using Python, Flask, and Sciki
 * Cosine similarity for finding similar movies
 * Interactive Flask web interface
 * Clean and responsive UI
-* Ready for deployment on Render
+* Ready for deployment on Railway
 
 ---
 
@@ -26,7 +26,7 @@ A content-based Movie Recommendation System built using Python, Flask, and Sciki
 | Flask        | Web Framework                          |
 | HTML/CSS     | Frontend                               |
 | Gunicorn     | Production Server                      |
-| Render       | Cloud Deployment                       |
+| Railway      | Cloud Deployment                       |
 
 ---
 
@@ -169,7 +169,9 @@ The system follows a content-based filtering approach:
 
 ---
 
-## ☁️ Deployment on Render
+## ☁️ Deployment on Railway 
+Live link:-
+https://web-production-a58820.up.railway.app/
 
 ### Build Command
 
