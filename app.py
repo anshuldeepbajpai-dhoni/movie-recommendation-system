@@ -1,3 +1,17 @@
+import os
+import subprocess
+import pickle
+
+# Generate model files if they don't exist
+if not os.path.exists("movies.pkl") or not os.path.exists("similarity.pkl"):
+    print("Generating model files...")
+    subprocess.run(["python", "create_model.py"], check=True)
+    print("Model files generated successfully!")
+
+# Load pickle files
+movies = pickle.load(open("movies.pkl", "rb"))
+similarity = pickle.load(open("similarity.pkl", "rb"))
+
 from flask import Flask, render_template, request
 import pickle
 
